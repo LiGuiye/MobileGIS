@@ -3,11 +3,13 @@
     <string name="shangchuan">上传</string>
     <string name="xianshi">显示</string>
     <string name="qingkong">清空</string>
+    <string name="dingwei">定位</string>
     <string name="longitude">经度</string>
     <string name="latitude">纬度</string>
     <!-- arcgis online portal url -->
     <string name="portal_url">http://www.arcgis.com/</string>
     <!-- webmap portal item id's -->
     <string name="webmap_houses_with_mortgages_id">23fe7e8317ba4331b6ca72bf2a8eddb6</string>
+    <string name="testmap1">69fdcd8e40734712aaec34194d4b988c</string>
 
 </resources>

@@ -16,7 +16,6 @@
         android:text="-2.72"
         android:visibility="visible" />
 
-
     <EditText
         android:id="@+id/editText_latitude"
         android:hint="@string/latitude"
@@ -56,12 +55,31 @@
         android:background="@color/colorAccent"
         android:text="@string/qingkong"
         />
+    <Button
+        android:id="@+id/locateBT"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="180dp"
+        android:background="@color/colorAccent"
+        android:text="@string/dingwei"
+        />
+
+    <TextView
+        android:id="@+id/textView_info"
+        android:layout_width="match_parent"
+        android:layout_marginTop="150dp"
+        android:background="@color/colorPrimary"
+        android:visibility="visible"
+        android:layout_height="50dp" />
+
+
 
     <com.esri.arcgisruntime.mapping.view.MapView
         android:id="@+id/mapView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="150dp">
+        android:layout_marginTop="200dp">
     </com.esri.arcgisruntime.mapping.view.MapView>
 
 </FrameLayout>
